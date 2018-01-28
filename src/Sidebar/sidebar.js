@@ -3,12 +3,13 @@ import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui
 import ContainerExampleContainer from '../Readtest/readtest.js';
 import Recc from '../fav/recco.js';
 import ItemExampleItems from '../recommendations/recommendations.js';
-import ButtonExampleHorizontallyAttached from '../Startstop/startstop.js';
 import FormExampleField from '../Readtimeform/readtimeform.js';
 import Submitbutton from '../Timesubmit/timesubmit.js';
 import CardExampleCard from '../Feature/feature.js';
 import Starr from '../Starred/starred.js';
 import Sbooks from '../Starred_books/starred_books.js'
+import Stopwatch from '../Feature/timer.js';
+import NameForm from '../Feature/form.js'
 
 class SidebarLeftOverlay extends Component {
 
@@ -18,8 +19,10 @@ class SidebarLeftOverlay extends Component {
     <h1>Reading Test </h1>
     <ContainerExampleContainer>
     </ContainerExampleContainer>
-    <ButtonExampleHorizontallyAttached>
-    </ButtonExampleHorizontallyAttached>
+    <Stopwatch>
+    </Stopwatch>
+    <NameForm>
+    </NameForm>
     <div class="ui hidden divider"></div>
     <FormExampleField>
     </FormExampleField>
@@ -63,8 +66,10 @@ class SidebarLeftOverlay extends Component {
       <h1>Reading Test </h1>
     <ContainerExampleContainer>
     </ContainerExampleContainer>
-    <ButtonExampleHorizontallyAttached>
-    </ButtonExampleHorizontallyAttached>
+    <Stopwatch>
+    </Stopwatch>
+    <NameForm>
+    </NameForm>
     <div class="ui hidden divider"></div>
     <FormExampleField>
     </FormExampleField>
