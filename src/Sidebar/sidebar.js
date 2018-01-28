@@ -7,6 +7,8 @@ import ButtonExampleHorizontallyAttached from '../Startstop/startstop.js';
 import FormExampleField from '../Readtimeform/readtimeform.js';
 import Submitbutton from '../Timesubmit/timesubmit.js';
 import CardExampleCard from '../Feature/feature.js';
+import Starr from '../Starred/starred.js';
+import Sbooks from '../Starred_books/starred_books.js'
 
 class SidebarLeftOverlay extends Component {
 
@@ -86,7 +88,10 @@ handleItemClick2() {
 handleItemClick3() {
   this.setState({clicked: true,inputPanel: 
   <Segment>
-
+    <Starr>
+    </Starr>
+    <Sbooks>
+    </Sbooks>
   </Segment>});
 }
 }
