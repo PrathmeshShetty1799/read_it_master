@@ -56,6 +56,7 @@ class SidebarLeftOverlay extends Component {
     </ContainerExampleContainer>
     <ButtonExampleHorizontallyAttached>
     </ButtonExampleHorizontallyAttached>
+    <div class="ui hidden divider"></div>
     <FormExampleField>
     </FormExampleField>
     <Submitbutton>
