@@ -15,9 +15,11 @@ const Sbooks = () => (
         <Item.Image size='small' src= {warpeace} />
   
         <Item.Content>
+        <div class="ui right floated segment">
+      <p><StarExampleRating> </StarExampleRating>
+      </p></div>
           <Item.Header as='a'>War and Peace</Item.Header>
           <Item.Meta>Level: Difficult </Item.Meta>
-          <Segment> <StarExampleRating> </StarExampleRating> </Segment>
           <Item.Description>
           Author: Leo Tolstoy
           </Item.Description>
@@ -29,9 +31,11 @@ const Sbooks = () => (
         <Item.Image size='small' src= {dalloway} />
   
         <Item.Content>
+        <div class="ui right floated segment">
+      <p><StarExampleRating> </StarExampleRating>
+      </p></div>
           <Item.Header as='a'>Mrs. Dalloway</Item.Header>
           <Item.Meta>Level: Difficult </Item.Meta>
-          <Segment> <StarExampleRating> </StarExampleRating> </Segment>
           <Item.Description>
           Author: Virginia Woolf
           </Item.Description>
@@ -44,10 +48,12 @@ const Sbooks = () => (
         <Item.Image size='small' src= {catch22} />
   
         <Item.Content>
+        <div class="ui right floated segment">
+      <p><StarExampleRating> </StarExampleRating>
+      </p></div>
           <Item.Header as='a'>Catch 22</Item.Header>
           <Item.Meta>Level: Difficult </Item.Meta>
-          <Segment> <StarExampleRating> </StarExampleRating> </Segment>
-          <Item.Description>
+           <Item.Description>
           Author: Joseph Heller
           </Item.Description>
           <Item.Extra>Set in Italy during World War II, this is the story of the incomparable, malingering bombardier, Yossarian, a hero who is furious because thousands of people he has never met are trying to kill him. But his real problem is not the enemy—it is his own army, which keeps increasing the number of missions the men must fly to complete their service. </Item.Extra>

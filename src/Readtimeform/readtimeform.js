@@ -14,8 +14,11 @@ class FormExampleField extends Component {
     return (
       <Form onSubmit={this.handleSubmit}>
         <Form.Group>
-          <Form.Input fluid label= 'How much time would you like to spend reading? (in hours)' placeholder='Time' name='name' value={name} onChange={this.handleChange} />
+        <div class="ui center aligned segment">
+        <Form.Input fluid label= 'How much time would you like to spend reading? (in hours)' placeholder='Time' name='name' value={name} onChange={this.handleChange} />
           <Form.Button content='Submit' />
+</div>
+          
         </Form.Group>
       </Form>
     )

@@ -11,6 +11,7 @@ const CardExampleCard = () => (
   <Card>
     <Card.Content>
     <Image size='small' src={unburied} />
+    <div class="ui hidden divider"></div>
     <Card.Header>Sing, Unburied, Sing</Card.Header>
       <Card.Meta>
         <span className='date'>
@@ -26,6 +27,7 @@ const CardExampleCard = () => (
   <Card>
     <Card.Content>
     <Image size='small' src={pachinko} />
+    <div class="ui hidden divider"></div>
       <Card.Header>
         Pachinko
       </Card.Header>
@@ -43,6 +45,7 @@ const CardExampleCard = () => (
   <Card>
     <Card.Content>
     <Image size='small' src={grant} />
+    <div class="ui hidden divider"></div>
       <Card.Header>
          Grant
       </Card.Header>
@@ -60,6 +63,7 @@ const CardExampleCard = () => (
   <Card>
     <Card.Content>
     <Image size='small' src={exit_west} />
+    <div class="ui hidden divider"></div>
       <Card.Header>
         Exit West
       </Card.Header>
