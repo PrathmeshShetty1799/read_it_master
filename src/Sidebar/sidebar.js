@@ -18,9 +18,7 @@ class SidebarLeftOverlay extends Component {
     </ContainerExampleContainer>
     <ButtonExampleHorizontallyAttached>
     </ButtonExampleHorizontallyAttached>
-
     <div class="ui hidden divider"></div>
-
     <FormExampleField>
     </FormExampleField>
     <Submitbutton>
@@ -30,7 +28,6 @@ class SidebarLeftOverlay extends Component {
     <CardExampleCard>
     </CardExampleCard>
     
-
     </Segment>};
     this.handleItemClick1 = this.handleItemClick1.bind(this);
     this.handleItemClick2 = this.handleItemClick2.bind(this);
