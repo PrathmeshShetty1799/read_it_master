@@ -1,70 +1,76 @@
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
-import mockingb from '../images/mockingb.jpg'
+import pachinko from '../images/pachinko.jpg'
+import unburied from '../images/sing_unburied_sing.jpg'
+import grant from '../images/grant.jpg'
+import exit_west from '../images/exit_west.jpg'
 
 
 const CardExampleCard = () => (
 <Card.Group itemsPerRow={4}>
   <Card>
     <Card.Content>
-    <Image size='small' src={mockingb} />
-    <Card.Header>To Kill A Mockingbird</Card.Header>
+    <Image size='small' src={unburied} />
+    <Card.Header>Sing, Unburied, Sing</Card.Header>
       <Card.Meta>
         <span className='date'>
-        
-          Joined in 2015
+          by Jesmyn Ward
         </span>
       </Card.Meta>
       <Card.Description>
-        Matthew is a musician living in Nashville.
+      Sing, Unburied, Sing begins as it mostly means to go on: in blackness. A teenager named Jojo finds himself in a place of dirt and mud and slime and blood
       </Card.Description>
     </Card.Content>
   </Card>
+
   <Card>
-  <Image src='/assets/images/avatar/large/matthew.png' />
     <Card.Content>
+    <Image size='small' src={pachinko} />
       <Card.Header>
-        Matthew
+        Pachinko
       </Card.Header>
       <Card.Meta>
         <span className='date'>
-          Joined in 2015
+        by Min Jin Lee
         </span>
       </Card.Meta>
       <Card.Description>
-        Matthew is a musician living in Nashville.
+         A vivid, immersive multigenerational saga about life for Koreans in Japan is a tale of resilience and poignant emotional conflict
+
       </Card.Description>
     </Card.Content>
   </Card>
+
   <Card>
-  <Image src='/assets/images/avatar/large/matthew.png' />
     <Card.Content>
+    <Image size='small' src={grant} />
       <Card.Header>
-        Matthew
+        Grant
       </Card.Header>
       <Card.Meta>
         <span className='date'>
-          Joined in 2015
+        by Ron Chernow
         </span>
       </Card.Meta>
       <Card.Description>
-        Matthew is a musician living in Nashville.
+      Following the assassination of Abraham Lincoln, Grant became the face of the Republican party, and was twice elected president, serving from 1869 to 1877. His administration was mired in financial scandal, but out of office Grant restored his reputation, 
       </Card.Description>
     </Card.Content>
   </Card>
+
   <Card>
-  <Image src='/assets/images/avatar/large/matthew.png' />
     <Card.Content>
+    <Image size='small' src={exit_west} />
       <Card.Header>
-        Matthew
+        Exit West
       </Card.Header>
       <Card.Meta>
         <span className='date'>
-          Joined in 2015
+        by Mohsin Hamid
         </span>
       </Card.Meta>
       <Card.Description>
-        Matthew is a musician living in Nashville.
+      A couple flee their war-torn city for Europe in a parable of love, displacement and the search for belonging
       </Card.Description>
     </Card.Content>
   </Card>
