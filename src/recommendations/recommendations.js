@@ -12,13 +12,15 @@ import warpeace from '../images/war-peace.jpg'
 const ItemExampleItems = () => (
   <Item.Group>
     <Item>
-      <Item.Image size='small' src= {warpeace} />
-
+      <Item.Image size='small' src= {warpeace} />     
+      
       <Item.Content>
-        <Item.Header as='a'>War and Peace</Item.Header>
-        <Item.Meta>Level: Difficult </Item.Meta>
-        <Segment> <RatingExampleRating> </RatingExampleRating> </Segment>
-        <Item.Description>
+      <div class="ui right floated segment">
+      <p><RatingExampleRating> </RatingExampleRating>
+      </p></div>
+      <Item.Header as='a'>War and Peace</Item.Header>      
+      <Item.Meta>Level: Difficult </Item.Meta>           
+      <Item.Description>
         Author: Leo Tolstoy
         </Item.Description>
         <Item.Extra>War and Peace broadly focuses on Napoleon’s invasion of Russia in 1812 and follows three of the most well-known characters in literature: Pierre Bezukhov, the illegitimate son of a count who is fighting for his inheritance and yearning for spiritual fulfillment; Prince Andrei Bolkonsky, who leaves his family behind to fight in the war against Napoleon; and Natasha Rostov, the beautiful young daughter of a nobleman who intrigues both men</Item.Extra>
@@ -29,9 +31,11 @@ const ItemExampleItems = () => (
       <Item.Image size='small' src={mockingb} />
 
       <Item.Content>
+      <div class="ui right floated segment">
+      <p><RatingExampleRating> </RatingExampleRating>
+      </p></div>
         <Item.Header as='b'>To Kill a Mockingbird</Item.Header>
         <Item.Meta>Level: Difficult</Item.Meta>
-        <Segment> <RatingExampleRating> </RatingExampleRating> </Segment>
         <Item.Description>
         Author: Harper Lee
         </Item.Description>
@@ -43,9 +47,11 @@ const ItemExampleItems = () => (
       <Item.Image size='small' src= {gatsby} />
 
       <Item.Content>
+      <div class="ui right floated segment">
+      <p><RatingExampleRating> </RatingExampleRating>
+      </p></div>
         <Item.Header as='a'>The Great Gatsby</Item.Header>
         <Item.Meta>Level: Hard </Item.Meta>
-        <Segment> <RatingExampleRating> </RatingExampleRating> </Segment>
         <Item.Description>
         Author: F. Scott Fitzgerald
         </Item.Description>
@@ -57,9 +63,11 @@ const ItemExampleItems = () => (
       <Item.Image size='small' src= {dalloway} />
 
       <Item.Content>
+      <div class="ui right floated segment">
+      <p><RatingExampleRating> </RatingExampleRating>
+      </p></div>
         <Item.Header as='a'>Mrs. Dalloway</Item.Header>
         <Item.Meta>Level: Difficult </Item.Meta>
-        <Segment> <RatingExampleRating> </RatingExampleRating> </Segment>
         <Item.Description>
         Author: Virginia Woolf
         </Item.Description>
@@ -71,9 +79,11 @@ const ItemExampleItems = () => (
       <Item.Image size='small' src= {lawyer} />
 
       <Item.Content>
+      <div class="ui right floated segment">
+      <p><RatingExampleRating> </RatingExampleRating>
+      </p></div>
         <Item.Header as='a'>The Street Lawyer</Item.Header>
         <Item.Meta>Level: Hard </Item.Meta>
-        <Segment> <RatingExampleRating> </RatingExampleRating> </Segment>
         <Item.Description>
         Author: John Grisham
         </Item.Description>
@@ -85,9 +95,11 @@ const ItemExampleItems = () => (
       <Item.Image size='small' src= {catch22} />
 
       <Item.Content>
+      <div class="ui right floated segment">
+      <p><RatingExampleRating> </RatingExampleRating>
+      </p></div>
         <Item.Header as='a'>Catch 22</Item.Header>
         <Item.Meta>Level: Difficult </Item.Meta>
-        <Segment> <RatingExampleRating> </RatingExampleRating> </Segment>
         <Item.Description>
         Author: Joseph Heller
         </Item.Description>
@@ -99,10 +111,12 @@ const ItemExampleItems = () => (
       <Item.Image size='small' src= {frankenstein} />
 
       <Item.Content>
+      <div class="ui right floated segment">
+      <p><RatingExampleRating> </RatingExampleRating>
+      </p></div>
         <Item.Header as='a'>Frankenstein</Item.Header>
         <Item.Meta>Level: Difficult </Item.Meta>
-        <Segment> <RatingExampleRating> </RatingExampleRating> </Segment>
-        <Item.Description>
+       <Item.Description>
         Author: Mary Shelley
         </Item.Description>
         <Item.Extra>Frankenstein is the first science fiction meets horror story but as per me, works less on the horror scale and more on the importance of tolerance. If only Victor had managed to look past his creation’s ghastly appearance, he would have avoided this great mess that the got himself into.</Item.Extra>

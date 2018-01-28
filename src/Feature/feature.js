@@ -36,7 +36,6 @@ const CardExampleCard = () => (
       </Card.Meta>
       <Card.Description>
          A vivid, immersive multigenerational saga about life for Koreans in Japan is a tale of resilience and poignant emotional conflict
-
       </Card.Description>
     </Card.Content>
   </Card>
@@ -45,7 +44,7 @@ const CardExampleCard = () => (
     <Card.Content>
     <Image size='small' src={grant} />
       <Card.Header>
-        Grant
+         Grant
       </Card.Header>
       <Card.Meta>
         <span className='date'>
