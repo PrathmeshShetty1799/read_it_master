@@ -7,6 +7,8 @@ import ButtonExampleHorizontallyAttached from '../Startstop/startstop.js';
 import FormExampleField from '../Readtimeform/readtimeform.js';
 import Submitbutton from '../Timesubmit/timesubmit.js';
 import CardExampleCard from '../Feature/feature.js';
+import Stopwatch from '../Feature/timer.js';
+import NameForm from '../Feature/form.js'
 
 class SidebarLeftOverlay extends Component {
 
@@ -16,6 +18,10 @@ class SidebarLeftOverlay extends Component {
     <h1>Reading Test </h1>
     <ContainerExampleContainer>
     </ContainerExampleContainer>
+    <Stopwatch>
+    </Stopwatch>
+    <NameForm>
+    </NameForm>
     <ButtonExampleHorizontallyAttached>
     </ButtonExampleHorizontallyAttached>
     <div class="ui hidden divider"></div>
