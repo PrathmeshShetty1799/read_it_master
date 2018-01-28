@@ -5,6 +5,8 @@ import Recc from '../fav/recco.js';
 import ItemExampleItems from '../recommendations/recommendations.js';
 import FormExampleField from '../Readtimeform/readtimeform.js';
 import CardExampleCard from '../Feature/feature.js';
+import Starr from '../Starred/starred.js';
+import Sbooks from '../Starred_books/starred_books.js'
 import Stopwatch from '../Feature/timer.js';
 
 class SidebarLeftOverlay extends Component {
@@ -84,7 +86,10 @@ handleItemClick2() {
 handleItemClick3() {
   this.setState({clicked: true,inputPanel: 
   <Segment>
-
+    <Starr>
+    </Starr>
+    <Sbooks>
+    </Sbooks>
   </Segment>});
 }
 }
