@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Button } from 'semantic-ui-react'
 
 const leftPad = (width, n) => {
   if ((n + '').length > width) {
@@ -50,15 +51,15 @@ class Stopwatch extends React.Component {
     return (
       <div>
         <TimeElapsed id="timer" timeElapsed={timeElapsed} />
-        <button onClick={this.toggle}>
+        <Button onClick={this.toggle}>
           {isRunning ? 'Stop' : 'Start'}
-        </button>
-        <button
+        </Button>
+        <Button
           onClick={isRunning ? this.lap : this.reset}
           disabled={!isRunning && !timeElapsed}
          >
           {isRunning || !timeElapsed ? 'Lap' : 'Reset'}
-        </button>
+        </Button>
         {lapTimes.length > 0 && <LapTimes lapTimes={lapTimes} />}
       </div>
     );
