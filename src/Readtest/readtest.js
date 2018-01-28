@@ -3,7 +3,7 @@ import { Container } from 'semantic-ui-react'
 
 const ContainerExampleContainer = () => (
   <Container>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa strong. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede link mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+    <p>Claire has been wanting a full-length mirror in our New York apartment. How come, I want to know. You can look at your top half in the bathroom and you see your feet any time in the shoestore. But it’s the overview she wants, the ensemble. So we head for Gracious Home and carry one back on the subway. I start wondering whether there might be something for me in this deal after all. Suppose, I say, we put it here, next to the bed? She doesn’t think so. Why not? Next to the bed, she says, might be counterproductive.</p>
   </Container>
 )
 
