@@ -1,41 +1,61 @@
 import React, { Component } from 'react'
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react'
+import ContainerExampleContainer from '../Readtest/readtest.js';
+import Recc from '../Reccomendations/reccomendations.js';
 
 class SidebarLeftOverlay extends Component {
+
+  constructor() {
+    super();
+    this.state = {clicked: false, inputPanel: <Segment>
+
+    </Segment>};
+    this.handleItemClick1 = this.handleItemClick1.bind(this);
+    this.handleItemClick2 = this.handleItemClick2.bind(this);
+    this.handleItemClick3 = this.handleItemClick3.bind(this);
+  }
+
   state = { visible: false }
 
   toggleVisibility = () => this.setState({ visible: !this.state.visible })
 
   render() {
-    const { visible } = this.state
     return (
       <div>
-        <Button onClick={this.toggleVisibility}>Toggle Visibility</Button>
-        <Sidebar.Pushable as={Segment}>
-          <Sidebar as={Menu} animation='overlay' width='thin' visible={visible} icon='labeled' vertical inverted>
-            <Menu.Item name='home'>
-              <Icon name='home' />
-              Home
-            </Menu.Item>
-            <Menu.Item name='gamepad'>
-              <Icon name='gamepad' />
-              Games
-            </Menu.Item>
-            <Menu.Item name='camera'>
-              <Icon name='camera' />
-              Channels
-            </Menu.Item>
-          </Sidebar>
-          <Sidebar.Pusher>
-            <Segment basic>
-              <Header as='h3'>Application Content</Header>
-              <Image src='/assets/images/wireframe/paragraph.png' />
-            </Segment>
-          </Sidebar.Pusher>
-        </Sidebar.Pushable>
+        <Menu pointing secondary>
+          <Menu.Item name='Home Page' onClick={this.handleItemClick1} />
+          <Menu.Item name='Reccomendations' onClick={this.handleItemClick2} />
+          <Menu.Item name='Starred' onClick={this.handleItemClick3} />
+          <Menu.Menu position='right'>
+          </Menu.Menu>
+        </Menu>
+
+        {this.state.inputPanel}
+
+
       </div>
     )
   }
+  handleItemClick1() {
+    this.setState({clicked: true,inputPanel: 
+    <Segment>
+    <ContainerExampleContainer>
+    </ContainerExampleContainer>
+    </Segment>});
+}
+handleItemClick2() {
+  this.setState({clicked: true,inputPanel: 
+    <Segment>
+      <Recc>
+      </Recc>
+  </Segment>});
+}
+handleItemClick3() {
+  this.setState({clicked: true,inputPanel: 
+  <Segment>
+
+  </Segment>});
+}
 }
 
 export default SidebarLeftOverlay
