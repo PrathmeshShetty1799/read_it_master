@@ -4,7 +4,7 @@ import { Container } from 'semantic-ui-react'
 
 const Starr = () => (
     <Container>
-      <h1 >Your Starred Books</h1>
+      <h1 > &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Your Starred Books</h1>
     </Container>
 )
 

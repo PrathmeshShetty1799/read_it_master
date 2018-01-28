@@ -4,7 +4,7 @@ import { Container } from 'semantic-ui-react'
 
 const Recc = () => (
     <Container>
-      <h1 >     Recommended Books</h1>
+      <h1 > &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Recommended Books</h1>
     </Container>
 )
 
