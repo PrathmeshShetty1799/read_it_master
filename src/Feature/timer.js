@@ -58,7 +58,7 @@ class Stopwatch extends React.Component {
           onClick={isRunning ? this.lap : this.reset}
           disabled={!isRunning && !timeElapsed}
          >
-          {isRunning || !timeElapsed ? 'Lap' : 'Reset'}
+          {isRunning || !timeElapsed ? 'Reset' : 'Reset'}
         </Button>
         {lapTimes.length > 0 && <LapTimes lapTimes={lapTimes} />}
       </div>

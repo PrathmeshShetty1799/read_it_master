@@ -6,10 +6,10 @@ class FormExampleField extends Component {
 
   handleChange = (e, { name, value }) => this.setState({ [name]: value })
 
-  handleSubmit = () => this.setState({ name: '' })
+  handleSubmit = () => this .setState({ name: '' })
 
-  render() {
-    const { name} = this.state
+  render(){
+    const { name } = this.state
 
     return (
       <Form onSubmit={this.handleSubmit}>
