@@ -2,7 +2,11 @@ import React, { Component } from 'react'
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react'
 import ContainerExampleContainer from '../Readtest/readtest.js';
 import Recc from '../fav/recco.js';
-import ItemExampleItems from '../recommendations/recommendations.js'
+import ItemExampleItems from '../recommendations/recommendations.js';
+import ButtonExampleHorizontallyAttached from '../Startstop/startstop.js';
+import FormExampleField from '../Readtimeform/readtimeform.js';
+import Submitbutton from '../Timesubmit/timesubmit.js';
+import CardExampleCard from '../Feature/feature.js';
 
 class SidebarLeftOverlay extends Component {
 
@@ -21,6 +25,12 @@ class SidebarLeftOverlay extends Component {
     </FormExampleField>
     <Submitbutton>
     </Submitbutton>
+    <div class="ui hidden divider"></div>
+    <h2>Featured Books of the Month</h2>
+    <CardExampleCard>
+    </CardExampleCard>
+    
+
     </Segment>};
     this.handleItemClick1 = this.handleItemClick1.bind(this);
     this.handleItemClick2 = this.handleItemClick2.bind(this);
@@ -61,6 +71,10 @@ class SidebarLeftOverlay extends Component {
     </FormExampleField>
     <Submitbutton>
     </Submitbutton>
+    <h2>Featured Books of the Month</h2>
+    <div class="ui hidden divider"></div>
+    <CardExampleCard>
+    </CardExampleCard>
     </Segment>});
 }
 handleItemClick2() {
