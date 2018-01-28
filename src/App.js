@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import SidebarLeftOverlay from './Sidebar/sidebar.js';
 import './App.css';
-import Header from './Header/header.js'
+import Header from './Header/header.js';
+import ListExampleIcon from './Readtest/info.js';
 
 
 class App extends Component {
@@ -14,6 +15,8 @@ class App extends Component {
         </Header>
         <SidebarLeftOverlay>
         </SidebarLeftOverlay>
+        <ListExampleIcon>
+        </ListExampleIcon>
         
 
       </div>
