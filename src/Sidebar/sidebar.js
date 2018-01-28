@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react'
 import ContainerExampleContainer from '../Readtest/readtest.js';
-import Recc from '../Reccomendations/reccomendations.js';
+import Recc from '../fav/recco.js';
+import ItemExampleItems from '../recommendations/recommendations.js'
 
 class SidebarLeftOverlay extends Component {
 
@@ -24,7 +25,7 @@ class SidebarLeftOverlay extends Component {
       <div>
         <Menu pointing secondary>
           <Menu.Item name='Home Page' onClick={this.handleItemClick1} />
-          <Menu.Item name='Reccomendations' onClick={this.handleItemClick2} />
+          <Menu.Item name='Recommendations' onClick={this.handleItemClick2} />
           <Menu.Item name='Starred' onClick={this.handleItemClick3} />
           <Menu.Menu position='right'>
           </Menu.Menu>
@@ -48,6 +49,8 @@ handleItemClick2() {
     <Segment>
       <Recc>
       </Recc>
+      <ItemExampleItems>
+      </ItemExampleItems>
   </Segment>});
 }
 handleItemClick3() {
