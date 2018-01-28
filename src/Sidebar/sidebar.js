@@ -9,7 +9,18 @@ class SidebarLeftOverlay extends Component {
   constructor() {
     super();
     this.state = {clicked: false, inputPanel: <Segment>
+    <h1>Reading Test </h1>
+    <ContainerExampleContainer>
+    </ContainerExampleContainer>
+    <ButtonExampleHorizontallyAttached>
+    </ButtonExampleHorizontallyAttached>
 
+    <div class="ui hidden divider"></div>
+
+    <FormExampleField>
+    </FormExampleField>
+    <Submitbutton>
+    </Submitbutton>
     </Segment>};
     this.handleItemClick1 = this.handleItemClick1.bind(this);
     this.handleItemClick2 = this.handleItemClick2.bind(this);
@@ -40,8 +51,15 @@ class SidebarLeftOverlay extends Component {
   handleItemClick1() {
     this.setState({clicked: true,inputPanel: 
     <Segment>
+      <h1>Reading Test </h1>
     <ContainerExampleContainer>
     </ContainerExampleContainer>
+    <ButtonExampleHorizontallyAttached>
+    </ButtonExampleHorizontallyAttached>
+    <FormExampleField>
+    </FormExampleField>
+    <Submitbutton>
+    </Submitbutton>
     </Segment>});
 }
 handleItemClick2() {

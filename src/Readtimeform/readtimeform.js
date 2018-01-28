@@ -1,10 +1,11 @@
 import React from 'react'
-import { Form } from 'semantic-ui-react'
+import { Button, Form, Message } from 'semantic-ui-react'
+
 
 const FormExampleField = () => (
   <Form>
     <Form.Field>
-      <label>User Input</label>
+      <label>What is your preferred total reading time? (in hours)</label>
       <input />
     </Form.Field>
   </Form>
