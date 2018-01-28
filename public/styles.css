@@ -1,0 +1,26 @@
+@font-face {
+    font-family: flamante;
+    src: url(FLAMANTE.ttf);
+}
+h1 {
+    padding-top: 2%;
+    font-size: 1000%;
+    text-align: center;
+    font-family: flamante;
+}
+
+.header {
+    font-size: 150%;
+    padding: 2%;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+}
+
+div.ui.horizontal.list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
