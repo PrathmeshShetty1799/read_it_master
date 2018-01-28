@@ -4,10 +4,8 @@ import ContainerExampleContainer from '../Readtest/readtest.js';
 import Recc from '../fav/recco.js';
 import ItemExampleItems from '../recommendations/recommendations.js';
 import FormExampleField from '../Readtimeform/readtimeform.js';
-import Submitbutton from '../Timesubmit/timesubmit.js';
 import CardExampleCard from '../Feature/feature.js';
 import Stopwatch from '../Feature/timer.js';
-import NameForm from '../Feature/form.js'
 
 class SidebarLeftOverlay extends Component {
 
@@ -19,13 +17,10 @@ class SidebarLeftOverlay extends Component {
     </ContainerExampleContainer>
     <Stopwatch>
     </Stopwatch>
-    <NameForm>
-    </NameForm>
     <div class="ui hidden divider"></div>
     <FormExampleField>
     </FormExampleField>
-    <Submitbutton>
-    </Submitbutton>
+
     <div class="ui hidden divider"></div>
     <h2>Featured Books of the Month</h2>
     <CardExampleCard>
@@ -66,13 +61,11 @@ class SidebarLeftOverlay extends Component {
     </ContainerExampleContainer>
     <Stopwatch>
     </Stopwatch>
-    <NameForm>
-    </NameForm>
+
     <div class="ui hidden divider"></div>
     <FormExampleField>
     </FormExampleField>
-    <Submitbutton>
-    </Submitbutton>
+
     <h2>Featured Books of the Month</h2>
     <div class="ui hidden divider"></div>
     <CardExampleCard>
